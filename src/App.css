@@ -1,0 +1,138 @@
+body {
+  background-color: var(--body-bgd);
+}
+
+.container {
+  padding-left: 12.7rem;
+  padding-right: 10.875rem;
+  background-color: var(--container-bgd);
+  width: 59%;
+  max-width: 1130px;
+  height: 100vh;
+  margin: auto;
+  position: relative;
+}
+
+
+
+/****************************************************/
+/*************    user card  styling   **************/
+/****************************************************/
+.user-card {
+  border: 1px solid blue;
+}
+
+.form-btn {
+  background-color: var(--dark-grey);
+  width: 14.75 rem;
+  max-width: 236px;
+  position: absolute;
+  right: 26px;
+  top: 11px;
+}
+
+.next-profiles-btn {
+background-color: var(--dark-olive);
+display: block;
+margin: auto;
+margin-top: 2rem;
+}
+
+.user-card h1 {
+  position: absolute;
+  left: 21px;
+  top: 11px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 100%;
+}
+
+.frame {
+  /*background-color: var(--shape-bgd);*/
+  background-color: red;
+  margin: 11.75rem auto 0 auto;
+  width: 100%;
+  max-width: 800px;
+  height: 60vh;
+  max-height: 739.83px;
+  border-radius: 500px 60px 300px 100px;
+  text-align: center;
+  display: grid;
+  place-items: center;
+}
+
+.inline {
+  display: inline;
+}
+
+/****************************************************/
+/*************  form elements styling  **************/
+/****************************************************/
+
+.form {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-size: 1.25rem;
+  line-height: 2.06rem;
+}
+
+.form h2 {
+  text-transform: uppercase;
+  text-align: right;
+  font-weight: 800;
+  padding-top: 6.3rem;
+}
+
+.form hr {
+  width: 10.4rem;
+  height: 9.29px;
+  background-color: var(--navy);
+  float: right;
+  margin-top: 12.39px;
+  border: none;
+}
+
+.form label {
+  text-align: left;
+  display: block;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.form label:first-of-type {
+  margin-top: 77.32px;
+}
+
+.form input {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: white;
+  border: none;
+  border-bottom: 1px solid;
+  margin-bottom: 2rem;
+}
+
+#accept-policy {
+  width: 1.8rem;
+  height: 1.8rem;
+  max-width: 30px;
+  margin: 0 10px 0 0;
+}
+
+/****************************************************/
+/*************  submit button styling  **************/
+/****************************************************/
+.registerbtn {
+  background-color: var(--navy);
+  margin-top: 1.16rem;
+  width: 14rem;
+}
+
